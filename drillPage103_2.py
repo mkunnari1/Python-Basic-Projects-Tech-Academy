@@ -29,6 +29,7 @@ def getFiles():
         if file.endswith('.txt'):
             print(file+' has been added to the database')
             
+            
             dbconn = sqlite3.connect('drill103.db')
 
             with dbconn:
