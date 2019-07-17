@@ -29,7 +29,7 @@ class ParentWindow(Frame):
     def selectDirect(self):
         
         print('initialize selectDirect')
-        dirname = tkinter.filedialog.askdirectory()
+        dirname = tk.filedialog.askdirectory()
         print(dirname)
         self.lablDir.config(text="{}".format(dirname),bg='white')
         
