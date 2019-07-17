@@ -10,8 +10,9 @@ class ParentWindow(Frame):
 
 
         self.master = master
-        self.master.resizable(width=False,height=False)
+        self.master.resizable(width=True,height=False)
         self.master.geometry('{}x{}'.format(600,80))
+        self.master.minsize(600,80)
         self.master.title('Choose Directory')
         self.master.config(bg='#F0F0F0')
 
