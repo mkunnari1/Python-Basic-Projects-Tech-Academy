@@ -96,7 +96,7 @@ class ParentWindow(Frame):
                     fullFile=os.path.join(fpath,file)
                     fileTime=str(os.path.getmtime(fullFile))
                     
-                    print(file+'initiate transfer, uploading to DB')
+                    print(fullFile+fileTime+' initiate transfer, uploading to DB')
                     shutil.copy(fullFile,destination)
 
                     dbconn = sqlite3.connect('drill123.db')
