@@ -1,2 +1,2 @@
 # Python-Basic-Projects-Tech-Academy
-Basic Level Projects for python
+This repository contains all of my python projects that I did with The Tech Academy.
